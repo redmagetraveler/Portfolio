@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(226, 226, 137);
+            height: calc(100vh - 20px);
+            box-sizing: border-box;
+        }
+
+        #ele-row-1 {
+            display: flex;
+            height: 100px;
+            border: 2px solid black;
+            border-top: none;
+            color: white;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+
+        #ele-row-2 {
+            display: flex;
+            border: 2px solid black;
+            color: white;
+            height: 100%;
+            margin-top: 10px;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #ele-row-3 {
+            display: flex;
+            border: 2px solid black;
+            color: white;
+            height: 50px;
+            margin-top: 10px;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        #ele-span-text-1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            background-image: linear-gradient(to bottom, blue, green);
+            color: white;
+            padding: 10px;
+        }
+
+        .button-main {
+            background-image: linear-gradient(to right, white, darkgrey);
+        }
+    </style>
+</head>
+
+<body>
+    <span id="ele-span-text-1">redmagetraveler</span>
+    <div id="ele-row-1">
+        <div id="ele-main-buttons-1">
+            <button class="button-main">Home</button>
+            <button class="button-main">Updates</button>
+        </div>
+    </div>
+    <div id="ele-row-2"></div>
+    <div id="ele-row-3"></div>
+</body>
+
+</html>
